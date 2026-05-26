@@ -22,7 +22,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.className} bg-white text-gray-900`}>
         <div className="flex min-h-screen">
           <Sidebar />
-          <div className="flex-1 ml-0 md:ml-[220px] flex flex-col min-h-screen">
+          {/* pt-[57px] compensates for mobile fixed top bar; md:pt-0 removes it on desktop */}
+          <div className="flex-1 ml-0 md:ml-[220px] flex flex-col min-h-screen pt-[57px] md:pt-0">
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
