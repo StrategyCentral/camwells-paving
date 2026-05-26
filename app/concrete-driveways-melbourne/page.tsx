@@ -38,7 +38,7 @@ export default function ConcreteDriveways() {
           </ul>
           <h2 className="text-2xl font-black mt-10 mb-4">Exposed Aggregate Upgrade</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Want to take your concrete driveway to the next level? Consider our <Link href="/exposed-aggregate-concrete-driveways-melbourne/" className="text-red-700 hover:underline font-semibold">exposed aggregate concrete driveways</Link> — the premium choice for Melbourne homeowners who want a driveway that looks like natural stone but performs like concrete.
+            Want to take your concrete driveway to the next level? Consider our <Link href="/exposed-aggregate-concrete-driveways-melbourne/" className="text-purple-700 hover:underline font-semibold">exposed aggregate concrete driveways</Link> — the premium choice for Melbourne homeowners who want a driveway that looks like natural stone but performs like concrete.
           </p>
           <h2 className="text-2xl font-black mt-10 mb-4">Our Service Area</h2>
           <p className="text-gray-700 leading-relaxed">
