@@ -46,7 +46,7 @@ export default function ExposedAggregatePage() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {benefits.map((b, i) => (
                 <li key={i} className="flex items-center gap-3">
-                  <span className="w-6 h-6 rounded-full bg-red-700 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">✓</span>
+                  <span className="w-6 h-6 rounded-full bg-purple-700 text-white flex items-center justify-center text-sm font-bold flex-shrink-0">✓</span>
                   <span className="text-gray-700">{b}</span>
                 </li>
               ))}
