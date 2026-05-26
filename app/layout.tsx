@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
+import Sidebar from '@/components/Sidebar'
 import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://camwellspaving.com.au'),
@@ -12,21 +12,21 @@ export const metadata: Metadata = {
     google: 'S1jymy81MmM6oQJ-geMGZsP39v-m2-ItqVSQXSvxBk0',
     other: { 'msvalidate.01': 'A9446FCBADF8B6B2EDA768BDD585AF4B' },
   },
-  openGraph: {
-    siteName: 'Cam Wells Paving',
-    locale: 'en_AU',
-    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
-  },
+  openGraph: { siteName: 'Cam Wells Paving', locale: 'en_AU' },
   twitter: { card: 'summary_large_image', site: '@CamWellsPaving' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-AU" className={inter.variable}>
-      <body className="bg-white text-gray-900">
-        <Header />
-        <main>{children}</main>
-        <Footer />
+    <html lang="en-AU">
+      <body className={`${inter.className} bg-white text-gray-900`}>
+        <div className="flex min-h-screen">
+          <Sidebar />
+          <div className="flex-1 ml-0 md:ml-[220px] flex flex-col min-h-screen">
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   )
