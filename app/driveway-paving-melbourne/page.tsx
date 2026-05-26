@@ -35,7 +35,7 @@ export default function DrivewayPavingPage() {
               { t: 'Concrete Driveways', d: 'Cost-effective and long-lasting. Plain, coloured, or stamped options available.' },
               { t: 'Pattern Paving', d: 'Herringbone, basket weave, and more. Custom designs to match your home.' },
             ].map(item => (
-              <div key={item.t} className="bg-gray-50 rounded-lg p-6 border-l-4 border-red-700">
+              <div key={item.t} className="bg-gray-50 rounded-lg p-6 border-l-4 border-purple-700">
                 <h3 className="font-black text-gray-900 mb-2">{item.t}</h3>
                 <p className="text-gray-600 text-sm">{item.d}</p>
               </div>
