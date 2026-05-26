@@ -2,6 +2,7 @@ interface PageHeroProps {
   title: string;
   subtitle?: string;
   breadcrumb?: string;
+  bgClass?: string; // legacy prop — kept for backwards compat, purple gradient used instead
 }
 
 export default function PageHero({ title, subtitle, breadcrumb }: PageHeroProps) {
