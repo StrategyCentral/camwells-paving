@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
+      <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
         <video
           autoPlay muted loop playsInline
           poster="/images/hero-bg.jpg"
@@ -72,7 +72,7 @@ export default function Home() {
           <source src="/video/driveways-melbourne.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 px-10 md:px-16 max-w-3xl">
+        <div className="relative z-10 px-10 md:px-16 max-w-3xl mx-auto text-center w-full">
           <h1 className="font-black italic leading-none mb-4"
             style={{ fontSize: 'clamp(4rem, 12vw, 9rem)', color: '#7c3aed' }}>
             Hello
@@ -81,7 +81,7 @@ export default function Home() {
           <p className="text-white text-lg md:text-xl mb-2">
             Welcome to Cam Wells Paving. Melbourne&rsquo;s leading driveway expert.
           </p>
-          <p className="text-gray-300 text-base mb-6 max-w-md">
+          <p className="text-gray-300 text-base mb-6 max-w-md mx-auto">
             Specialists in paving and exposed aggregate finishes. Call now for a 100% obligation free quote.
           </p>
           <p className="text-white text-3xl font-bold tracking-widest mb-8">
