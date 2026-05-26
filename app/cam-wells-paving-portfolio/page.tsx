@@ -44,7 +44,7 @@ export default function PortfolioPage() {
                 <img src={item.src} alt={item.alt}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="p-4 bg-white">
-                  <span className="inline-block text-xs font-bold text-red-700 bg-red-50 px-3 py-1 rounded-full mb-2">{item.category}</span>
+                  <span className="inline-block text-xs font-bold text-purple-700 bg-purple-50 px-3 py-1 rounded-full mb-2">{item.category}</span>
                   <p className="text-sm text-gray-700 font-medium">{item.alt}</p>
                 </div>
               </div>
