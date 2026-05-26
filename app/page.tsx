@@ -159,7 +159,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-purple-400">
           <StatCard target={40} suffix="+" label="Years Experience" />
           <StatCard target={500} suffix="+" label="Jobs Completed" />
-          <StatCard target={1000} suffix="s" label="Happy Clients" />
+          <StatCard target={500} suffix="+" label="Happy Clients" />
         </div>
       </section>
 
