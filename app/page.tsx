@@ -31,8 +31,9 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative bg-gray-900 text-white min-h-[85vh] flex items-center justify-center overflow-hidden">
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-40"
-          poster="https://camwellspaving.com.au/wp-content/uploads/2014/12/Driveways-Melbourne.png">
-          <source src="https://camwellspaving.com.au/wp-content/uploads/2014/09/Driveways-Melbourne.mp4.mp4" type="video/mp4" />
+          poster="/video/driveways-melbourne-poster.jpg">
+          <source src="/video/driveways-melbourne.webm" type="video/webm" />
+          <source src="/video/driveways-melbourne.mp4" type="video/mp4" />
         </video>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
