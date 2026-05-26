@@ -22,7 +22,7 @@ export default function ContactPage() {
                 <span className="text-3xl">📞</span>
                 <div>
                   <p className="font-bold text-gray-900">Phone</p>
-                  <a href="tel:0407334139" className="text-red-700 text-2xl font-black hover:text-red-800">0407 334 139</a>
+                  <a href="tel:0407334139" className="text-purple-700 text-2xl font-black hover:text-red-800">0407 334 139</a>
                   <p className="text-sm text-gray-500 mt-1">Call for fastest response</p>
                 </div>
               </div>
@@ -51,26 +51,26 @@ export default function ContactPage() {
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Your Name</label>
                 <input type="text" name="name" required
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none" />
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none" />
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Phone Number</label>
                 <input type="tel" name="phone"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none" />
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none" />
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Email</label>
                 <input type="email" name="email"
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none" />
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none" />
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Message</label>
                 <textarea name="message" rows={5}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-red-500 focus:border-transparent outline-none resize-none" />
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none resize-none" />
               </div>
               <p className="text-xs text-gray-500">I consent to Cam Wells Paving collecting my details through this form.</p>
               <button type="submit"
-                className="w-full bg-red-700 hover:bg-red-800 text-white font-black py-4 rounded-lg transition-colors text-lg">
+                className="w-full bg-purple-700 hover:bg-purple-800 text-white font-black py-4 rounded-lg transition-colors text-lg">
                 Send Message
               </button>
             </form>
