@@ -33,7 +33,7 @@ export default function AboutPage() {
               { stat: '1000s', label: 'Happy Clients', desc: 'Clients impressed with quality, service and design.' },
             ].map(item => (
               <div key={item.stat} className="text-center bg-gray-50 rounded-xl p-8">
-                <div className="text-4xl font-black text-red-700 mb-2">{item.stat}</div>
+                <div className="text-4xl font-black text-purple-700 mb-2">{item.stat}</div>
                 <div className="font-black text-gray-900 mb-1">{item.label}</div>
                 <div className="text-sm text-gray-600">{item.desc}</div>
               </div>
