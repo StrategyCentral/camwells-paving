@@ -37,7 +37,7 @@ export default function ExposedAggregateConcreters() {
             <li>Commercial aggregate projects</li>
           </ul>
           <p className="text-gray-700">
-            Learn more about our <Link href="/exposed-aggregate-concrete-driveways-melbourne/" className="text-red-700 hover:underline font-semibold">exposed aggregate concrete driveways</Link> or <Link href="/contact-us/" className="text-red-700 hover:underline font-semibold">contact us for a free quote</Link>.
+            Learn more about our <Link href="/exposed-aggregate-concrete-driveways-melbourne/" className="text-purple-700 hover:underline font-semibold">exposed aggregate concrete driveways</Link> or <Link href="/contact-us/" className="text-purple-700 hover:underline font-semibold">contact us for a free quote</Link>.
           </p>
         </div>
       </article>
