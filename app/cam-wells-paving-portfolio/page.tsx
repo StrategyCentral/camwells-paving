@@ -28,23 +28,22 @@ const gallery = [
 export default function PortfolioPage() {
   return (
     <>
-      <PageHero title="Our Portfolio" subtitle="Spectacular driveways Melbourne is now showcasing — take a look at our work" bgClass="bg-gray-800" />
+      <PageHero title="Our Portfolio" subtitle="Spectacular driveways Melbourne is now showcasing — take a look at our work" />
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <div className="section-divider" />
             <p className="text-gray-600 max-w-2xl mx-auto">
               Our workmanship and quality is second to none. Browse through some of our completed projects below.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {gallery.map((item, i) => (
-              <div key={i} className="group rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow">
+              <div key={i} className="group overflow-hidden shadow-md hover:shadow-xl transition-shadow">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={item.src} alt={item.alt}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
-                <div className="p-4 bg-white">
-                  <span className="inline-block text-xs font-bold text-purple-700 bg-purple-50 px-3 py-1 rounded-full mb-2">{item.category}</span>
+                <div className="p-4 bg-white border border-gray-100">
+                  <span className="inline-block text-xs font-bold text-purple-700 uppercase tracking-widest mb-1">{item.category}</span>
                   <p className="text-sm text-gray-700 font-medium">{item.alt}</p>
                 </div>
               </div>
@@ -52,7 +51,7 @@ export default function PortfolioPage() {
           </div>
         </div>
       </section>
-      <CTABanner text="Love what you see? Get your free quote today!" />
+      <CTABanner subtitle="Love what you see? Get your free quote today!" />
     </>
   )
 }
