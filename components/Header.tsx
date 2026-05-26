@@ -21,20 +21,20 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <span className="text-xl font-black text-gray-900 tracking-tight">
-            CAM WELLS <span className="text-red-700">PAVING</span>
+            CAM WELLS <span className="text-purple-700">PAVING</span>
           </span>
         </Link>
         {/* Desktop nav */}
         <nav className="hidden lg:flex items-center gap-1">
           {navLinks.map(l => (
             <Link key={l.href} href={l.href}
-              className="text-sm font-medium text-gray-700 hover:text-red-700 px-3 py-2 rounded transition-colors">
+              className="text-sm font-medium text-gray-700 hover:text-purple-700 px-3 py-2 rounded transition-colors">
               {l.label}
             </Link>
           ))}
         </nav>
         <a href="tel:0407334139"
-          className="hidden lg:inline-flex items-center gap-2 bg-red-700 hover:bg-red-800 text-white font-bold px-5 py-2 rounded transition-colors">
+          className="hidden lg:inline-flex items-center gap-2 bg-purple-700 hover:bg-purple-800 text-white font-bold px-5 py-2 rounded transition-colors">
           📞 0407 334 139
         </a>
         {/* Mobile hamburger */}
@@ -48,7 +48,7 @@ export default function Header() {
         <div className="lg:hidden bg-white border-t border-gray-100 px-4 pb-4">
           {navLinks.map(l => (
             <Link key={l.href} href={l.href} onClick={() => setOpen(false)}
-              className="block py-2 text-gray-700 hover:text-red-700 font-medium border-b border-gray-50">
+              className="block py-2 text-gray-700 hover:text-purple-700 font-medium border-b border-gray-50">
               {l.label}
             </Link>
           ))}
